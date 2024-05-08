@@ -3,6 +3,12 @@ from functions import crawler
 import load
 from functions import save_and_load
 import ask
+
+# # 设置代理
+# port = os.getenv('PORT')
+# os.environ['HTTP_PROXY'] = f'http://localhost:{port}'
+# os.environ['HTTPS_PROXY'] = f'http://localhost:{port}'
+
 ## 选择模型
 model = input("请选择模型，选择前确保在.env文件配置正确的api_key（输入1、2或3）：\n1. ChatGPT\n2. Moonshot\n3. Gemini\n")
 ## 下载并加载论文

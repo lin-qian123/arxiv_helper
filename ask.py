@@ -3,13 +3,6 @@ from functions import save_and_load
 from functions import encode
 from llm import llm
 
-# # 设置代理
-# port = os.getenv('PORT')
-# os.environ['HTTP_PROXY'] = f'http://localhost:{port}'
-# os.environ['HTTPS_PROXY'] = f'http://localhost:{port}'
-
-# 设置模型
-
 
 def ask_question_chatgpt(query, loaded_em, file_name):
 
