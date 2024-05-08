@@ -3,8 +3,8 @@ import requests
 
 def download_papers(arxiv_id):
     link = f"https://arxiv.org/pdf/{arxiv_id}.pdf"
-    if not os.path.exists(f'pdf'):
-        os.makedirs(f'pdf')
+    if not os.path.exists('pdf'):
+        os.makedirs('pdf')
     
     response = requests.get(link)
     if response.status_code == 200:  # 检查请求是否成功

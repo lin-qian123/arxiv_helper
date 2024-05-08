@@ -1,7 +1,10 @@
 import numpy as np
 import pickle
+import os
 
 def save(chunks, embedings, name):
+    if not os.path.exists('vec_data'):
+        os.makedirs('vec_data')
     np.save(f'vec_data/{name}.npy', embedings)
     with open(f'vec_data/{name}.pkl', 'wb') as f:
         pickle.dump(chunks, f)
