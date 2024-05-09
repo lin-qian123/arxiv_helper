@@ -6,17 +6,17 @@
 - 问答模型支持openai-chatgpt, google-gemini, moonshot.
 
 ## 安装
-1. 使用linux终端或者Windows中git bash执行  
+1.使用linux终端或者Windows中git bash执行  
 ```
 git clone https://github.com/lin-qian123/arxiv_helper.git
 ```
 或者直接下载zip压缩包.
 
-2. 进入文件夹，安装python依赖库  
+2.进入文件夹，安装python依赖库  
 ```
 pip install requirements.txt
 ```
-3. 下载m3e-base模型
+3.下载m3e-base模型
 ```
 git clone https://github.com/wangyingdong/m3e-base.git
 ```
