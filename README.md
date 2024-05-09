@@ -24,5 +24,8 @@ git clone https://github.com/wangyingdong/m3e-base.git
 更改环境变量文件.env中的API为自己的API.    
 运行main.py文件即可进行问答.
 
+## 基本思路
+首先下载PDF并且将其拆分成文本，然后将文本块embeding成相应向量，在每次输入问题时，将问题对应的向量与文本向量作内积，提取出相似度最高的文本进行问答。
+
 
 
