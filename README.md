@@ -18,7 +18,7 @@ pip install requirements.txt
 ```
 3.下载m3e-base模型
 ```
-git clone https://github.com/wangyingdong/m3e-base.git
+git clone https://www.modelscope.cn/thomas/m3e-base.git
 ```
 ## 使用
 更改环境变量文件.env中的API为自己的API.    
